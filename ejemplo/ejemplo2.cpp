@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-int main() {
 void sumOfTwoValues (int valueOne, int valueTwo) {
     int sumResult;
     sumResult = valueOne + valueTwo;
@@ -12,23 +11,26 @@ void substractOfTwoValues (int valueOne, int valueTwo) {
     int sumResult;
     sumResult = valueOne - valueTwo;
     cout << "La resta de los valores es: " << sumResult << endl;
-    int valueOne, valueTwo, sumResult;
-}
+} // ← cierre que te faltaba
 
-void multiplicationOfTwoValues (int valueOne, int valueTwo)
+void multiplicationOfTwoValues (int valueOne, int valueTwo) {
+    int sumResult;
+    sumResult = valueOne * valueTwo;
+    cout << "La multiplicacion de los valores es: " << sumResult << endl;
+}
 
 int main () {
     int valueOne, valueTwo;
+
     cout << "Ingrese un numero: ";
-    cin >> valueOne
+    cin >> valueOne; 
 
-    cout << "Ingrese otro numero; ";
-    cin >> valueTwo
+    cout << "Ingrese otro numero: ";
+    cin >> valueTwo;
 
-    sumOfTwoValues (valueOne, valueTwo) 
-    sumResult = sumOfTwoValues (valueOne, valueTwo);
-    cout << "La resta de los valores es: " << sumResult << endl;
+    sumOfTwoValues(valueOne, valueTwo);
+    substractOfTwoValues(valueOne, valueTwo);
+    multiplicationOfTwoValues(valueOne, valueTwo);
 
-    
-    
+    return 0;  
 }
