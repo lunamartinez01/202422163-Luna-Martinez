@@ -11,7 +11,7 @@ void substractOfTwoValues (int valueOne, int valueTwo) {
     int sumResult;
     sumResult = valueOne - valueTwo;
     cout << "La resta de los valores es: " << sumResult << endl;
-} // ← cierre que te faltaba
+} 
 
 void multiplicationOfTwoValues (int valueOne, int valueTwo) {
     int sumResult;
