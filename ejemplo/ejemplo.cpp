@@ -1,12 +1,12 @@
 #include <iostream>
-#include <string>   // Para usar string
+#include <string>   
 using namespace std;
 
 int main() {
     double num1, num2, resultado;
     string operacion;
 
-    // Entrada de datos
+    
     cout << "Ingrese el primer numero: ";
     cin >> num1;
 
