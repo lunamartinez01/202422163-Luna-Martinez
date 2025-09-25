@@ -1,23 +1,30 @@
 #include <iostream>
 using namespace std;
 
-void clasificarNumero(int number) {
-    if (number > 0) {
+void clasificarNumero(int Number) {
+    if (Number > 0) {
         cout << "Positivo" << endl;
-    } else if (number < 0) {
+    } else if (Number < 0) {
         cout << "Negativo" << endl;
     } else {
         cout << "Cero" << endl;
     }
 }
+    if (Number >=10) {
+        cout << "El numero esta entre -10 y 10." << endl;
+    } else {
+        cout << "El numero no esta dentro de -10 y 10." << endl;
+    }
+}
+
 
 int main() {
-    int number;
+    int Number;
 
     cout << "Ingrese un numero entero: ";
-    cin >> number;
+    cin >> Number;
 
-    clasificarNumero(number);
+    clasificarNumero(Number);
 
     return 0;
 }
