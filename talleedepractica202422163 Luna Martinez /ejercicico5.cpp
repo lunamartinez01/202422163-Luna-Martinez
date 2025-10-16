@@ -2,8 +2,8 @@
 using namespace std;
 
 void word (){
-    
-    cout << "Ingrese una palabra:" << endl;
+
+    cout << "Ingrese una palabra:";
     
 }
 
