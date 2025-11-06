@@ -12,7 +12,6 @@ void forWithArray (){
 
     }
     
-
 }
 int main (){
     forWithArray ();

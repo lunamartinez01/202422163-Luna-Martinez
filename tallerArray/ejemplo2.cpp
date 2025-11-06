@@ -4,7 +4,7 @@ using namespace std;
 
 void forWithArray (){
     float grades[5] = {3.5, 4.0, 2.8, 3.9, 4.2};
-    float gradesSum = 0;
+    float gradesSum = 0;          
     
     for (int i = 0; i < 5; i++){
         
