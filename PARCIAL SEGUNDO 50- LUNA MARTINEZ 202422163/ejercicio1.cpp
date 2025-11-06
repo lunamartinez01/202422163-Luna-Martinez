@@ -18,7 +18,7 @@ void mm (){
     
 }
 int main (){
-    string text = "Programar en C++ es muy divertido";
-    mm (text);
+    string phrase = "Programar en C++ es muy divertido";
+    mm (phrase);
     return 0;
 }
