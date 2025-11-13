@@ -2,7 +2,7 @@
 
 using namespace std;
 
-class mmm {
+class SalesManager {
     public:
         bool continueRunning = true;
         int arraySize = 0;
@@ -166,7 +166,7 @@ class mmm {
 };
 
 int main(){
-    mmm mm;
-    mm.run();
+    SalesManager manager;
+    manager.run();
     return 0;
 }
